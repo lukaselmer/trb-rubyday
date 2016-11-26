@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/trailblazer/operation.git
+  remote: https://github.com/trailblazer/operation.git
   revision: c522f9a60f80296c2b932f78d5d24418d76a4468
   specs:
     trailblazer-operation (0.0.3)
@@ -8,7 +8,7 @@ GIT
       uber (>= 0.1.0, < 0.2.0)
 
 GIT
-  remote: git://github.com/trailblazer/trailblazer.git
+  remote: https://github.com/trailblazer/trailblazer.git
   revision: accd51e5cba9652fc00f5919fe266c29a76f6876
   specs:
     trailblazer (2.0.0)
