@@ -1,2 +1,2 @@
-require "trailblazer/operation"
+require 'trailblazer/operation'
 

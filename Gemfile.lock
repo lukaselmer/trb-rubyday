@@ -1,0 +1,47 @@
+GIT
+  remote: git://github.com/trailblazer/operation.git
+  revision: c522f9a60f80296c2b932f78d5d24418d76a4468
+  specs:
+    trailblazer-operation (0.0.3)
+      declarative
+      pipetree (>= 0.0.4, < 0.1.0)
+      uber (>= 0.1.0, < 0.2.0)
+
+GIT
+  remote: git://github.com/trailblazer/trailblazer.git
+  revision: accd51e5cba9652fc00f5919fe266c29a76f6876
+  specs:
+    trailblazer (2.0.0)
+      declarative
+      reform (>= 2.0.0, < 3.0.0)
+      trailblazer-operation
+      uber (>= 0.1.0, < 0.2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    declarative (0.0.8)
+      uber (>= 0.0.15)
+    disposable (0.3.2)
+      declarative (>= 0.0.8, < 1.0.0)
+      representable (>= 2.4.0, <= 3.1.0)
+      uber
+    pipetree (0.0.4)
+    reform (2.2.2)
+      disposable (>= 0.3.0, < 0.4.0)
+      representable (>= 2.4.0, < 3.1.0)
+      uber (>= 0.0.15, < 0.2.0)
+    representable (3.0.1)
+      declarative (~> 0.0.5)
+      uber (>= 0.0.15, < 0.2.0)
+    uber (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  trailblazer!
+  trailblazer-operation!
+
+BUNDLED WITH
+   1.13.6
